@@ -9,11 +9,6 @@ class Models {
     const DB_PASS = '';
 
 
-	// const HOST = 'sql327.main-hosting.eu';
-	// const DB_NAME = 'u827303237_bouiachi';
-	// const DB_USER = 'u827303237_bouiachi';
-	// const DB_PASS = 'Kn6|N2@u0Fh';
-
 
 	function __construct() {
 			$this->pdo = new PDO ( 'mysql:dbname=' . self::DB_NAME . '; host=' . self::HOST, self::DB_USER, self::DB_PASS );
